@@ -1,12 +1,12 @@
 import telebot
 import google.generativeai as genai
 
-# Replace with your Telegram bot token (essential)
-bot_token = "6722844904:AAH2XsNcej5kyTbNMhXC8Rj9G1VANJhQ2w4"
+# Replace with your Telegram bot token 
+bot_token = "YOUR_BOT_TOKEN
 bot = telebot.TeleBot(bot_token)
 
 # Replace with your Gemini API key (essential for actual Gemini integration)
-gemini_api_key = "AIzaSyBb_fuvn50S7nS80FXOrSUv68sT1DZeyVw"
+gemini_api_key = "YOUR_GEMINI_API_KEY"
 
 
 def generate_response(text):
